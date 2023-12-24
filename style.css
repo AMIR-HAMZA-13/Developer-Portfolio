@@ -1,0 +1,222 @@
+* {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+}
+.text-primary {
+        color: #FD6E0A;
+}
+.btn-primary {
+        border-radius: 5px;
+        background-color: #FD6E0A;
+        height: 60px;
+        color: #ffff;
+        font-weight: 700;
+        border: 0;
+        align-items: center;
+        display: flex;
+        font-size: 16px;
+        padding: 10px 20px;
+}
+header {
+        background: #fff8f3;
+        background-image: url('images/developer.png'), url('images/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: bottom left, bottom right;
+
+}
+
+/* Header and navigation styles */
+nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 200px;
+}
+
+.nav-title {
+        font-weight: 800;
+        font-size: 45px;
+}
+
+nav ul {
+        display: flex;
+        align-items: center;
+}
+
+nav li {
+        list-style: none;
+        margin-left: 50px;
+}
+
+/* Banner styles */
+.banner {
+        margin: 0 200px;
+        display: flex;
+        align-items: center;
+}
+
+.banner-title {
+        font-weight: 700;
+        font-size: 85px;
+        margin: 20px 0 5px 0;
+}
+
+.banner-sub-title {
+        font-weight: 600;
+        font-size: 45px;
+        color: #757575;
+}
+
+.banner-description {
+        color: #757575;
+        font-size: 18px;
+        margin-bottom: 10px;
+}
+.banner-btn{
+        display: flex;
+}
+.btn-primary img{
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+        
+}
+.btn-primary img:hover{
+    transform: scale(1.1);
+}
+.contact-icon{
+        width: 160px;
+        height: 64px;
+        border-radius: 5px;
+        border: 2px solid  #FD6E0A;
+        align-items: center;
+        color: #FD6E0A;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 30px;
+}
+.contact-icon img{
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+}
+.contact-icon img:hover{
+        transform: scale(1.1);
+}
+/*About section styles  */
+main{
+max-width: 1140px;
+margin: 0 auto;
+}
+.about{
+margin-top: 130px;
+background: #fff8f3;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+
+}
+.section-title{
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 35px;
+}
+.section-description{
+color: #757575;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.about-info-container{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 30px;
+}
+.about-info{
+       color: #757575;
+       font-weight: 700;
+       font-size: 18px; 
+}
+.what-i-do{
+        margin-top: 130px;
+}
+.i-do-description{
+        color: #757575;
+        margin-bottom: 50px;
+        text-align: center;
+}
+.skills-container{
+        display: flex;
+        gap: 25px;
+}
+.skill{
+background: #ffffff;
+box-shadow: 0px 6px 50px gray;
+border-radius: 5px;
+padding: 30px;
+}
+.skill-description{
+color: #757575;
+margin-top: 20px;
+}
+.skill h4{
+        margin-top: 20px;
+}
+/* Summary Section */
+.resume{
+       margin-top:150px ; 
+}
+.resume h4{
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        font-size: 20px;
+}
+.resume h5{
+        margin-bottom: 20px;
+        font-family: sans-serif;
+}
+.resume p{
+        padding-bottom: 30px;
+        font-family: sans-serif;
+}
+.resume-content{
+        display: flex;
+        margin-top: 130px;
+        gap: 25px;
+        justify-content: space-between;
+        
+}
+.resume-title{
+        margin-bottom:10px;
+        font-size: 30px;
+        font-weight: 700;
+        
+}
+.resume-sub-title{
+        padding-bottom: 30px;
+        font-weight: 500;
+        color: #757575;
+}
+.cv-btn{
+        margin-left: 470px;
+}
+/* Contact Aria */
+.contact-aria{
+        display: flex;
+        gap: 10px;
+        padding: 130px 200px;
+        background: #fff8f3;
+        margin-top: 130px;
+}
+.contact-aria input[type="text"], input[type="email"], textarea{
+        margin-bottom: 25px;
+        border: 0;
+        width: 100%;
+        padding: 20px;
+}
+.contact-aria a{
+        text-decoration: none;
+}
+.contact-aria h3, p, a{
+        padding-bottom: 20px;
+}
